@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Columns</title>
+    <title>Rows</title>
     <style>
-        body{
+        body {
             font-family: Arial;
         }
-        .container{
+        .container {
             display: grid;
             grid-template-columns: 25% 200px 25%;
+            grid-template-rows: 300px 200px; 
+
+            grid-template: 100px 200px / 25% 200px 20%;
         }
-        .item{
+        
+        .item {
             background: lightblue;
             padding: 10px;
             border : 1px solid red;
